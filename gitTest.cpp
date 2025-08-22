@@ -2,5 +2,5 @@
 using namespace std;
 int main()
 {
-    cout << "this is github test";
+    cout << "this is Github test";
 }

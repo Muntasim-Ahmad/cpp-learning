@@ -1,5 +1,1 @@
-
-    }
-
-    cout << sum << endl;
-}
+double

@@ -15,15 +15,34 @@ int printAnyNAme(string name)
     return 0;
 }
 
+int addTwoNumbers(int a, int b)
+{
+    return a + b;
+}
+
+int doubleAndAddNumbers(int a, int b)
+{
+    int result = a * 2 + b * 2;
+    return result;
+}
+
 int main()
 {
     cout << "hello world" << endl;
-    printName();
+    // printName();
 
-    printAnyNAme("Imtiyaz");
-    printAnyNAme("John");
+    // printAnyNAme("Imtiyaz");
+    // printAnyNAme("John");
 
-    printAnyNAme("Abc");
+    // printAnyNAme("Abc");
+    // int result = addTwoNumbers(5, 6);
+    // int result2 = addTwoNumbers(19, 55);
+    // cout << result2 << endl;
 
-       return 0;
+    // cout << result;
+    int result = doubleAndAddNumbers(2, 4);
+
+    cout << result;
+
+    return 0;
 }

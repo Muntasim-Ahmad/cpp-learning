@@ -1,1 +1,5 @@
-name
+
+    }
+
+    cout << sum << endl;
+}

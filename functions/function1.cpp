@@ -1,17 +1,17 @@
-// #include <iostream>
+#include <iostream>
 
-// using namespace std;
+using namespace std;
 
-// int add(int a, int b)
-// {
-//     return a + b;
-// }
+int add(int a, int b)
+{
+    return a + b;
+}
 
-// int main()
-// {
-//     cout << "sum:" << add(55, 45) << endl;
-//     return 0;
-// }
+int main()
+{
+    cout << "sum:" << add(55, 45) << endl;
+    return 0;
+}
 
 #include <iostream>
 

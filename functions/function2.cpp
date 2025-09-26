@@ -1,25 +1,25 @@
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// bool iseven(int num)
-// {
-//     return (num % 2 == 0);
-// }
-// int main()
-// {
-//     int n;
-//     cout << "enter a number:";
-//     cin >> n;
+bool iseven(int num)
+{
+    return (num % 2 == 0);
+}
+int main()
+{
+    int n;
+    cout << "enter a number:";
+    cin >> n;
 
-//     if (iseven(n))
-//     {
-//         cout << n << "is even" << endl;
-//     }
-//     else
-//     {
-//         cout << n << "is odd" << endl;
-//     }
-// }
+    if (iseven(n))
+    {
+        cout << n << "is even" << endl;
+    }
+    else
+    {
+        cout << n << "is odd" << endl;
+    }
+}
 
 #include <iostream>
 using namespace std;
